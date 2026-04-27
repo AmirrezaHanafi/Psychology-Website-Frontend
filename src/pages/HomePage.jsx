@@ -2,7 +2,8 @@ export default function HomePage() {
   return (
     <div>
       home page
-      <span>edited</span>
+      <br/>
+      <span className="font-Poppins">edited</span>
     </div>
   )
 }
