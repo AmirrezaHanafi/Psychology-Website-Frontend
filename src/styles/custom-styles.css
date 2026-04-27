@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Poppins';
+    src: url("/public/Fonts/Poppin/PoppinsLatin-Regular.ttf");
+}
+@font-face {
+    font-family: 'PoppinsBold';
+    src: url("/public/Fonts/Poppin/PoppinsLatin-Bold.ttf");
+}
+@font-face {
+    font-family: 'PoppinsExtraBold';
+    src: url("/public/Fonts/Poppin/PoppinsLatin-ExtraBold.ttf");
+}
+@font-face {
+    font-family: 'PoppinsMedium';
+    src: url("/public/Fonts/Poppin/PoppinsLatin-Medium.ttf");
+}
+@font-face {
+    font-family: 'Prata';
+    src: url("/public/Fonts/Prata/prata.regular.ttf");
+}
+
+@theme {
+    /* custom Fonts */
+    --font-Poppins : "poppins";
+    --font-PoppinsBold : "poppinsBold";
+    --font-PoppinsExtraBold : "PoppinsExtraBold";
+    --font-PoppinsMedium : "PoppinsMedium";
+    --font-Prata : "Prata";
+    /*  custom color  */
+    --color-primary : #D4C8AF;
+}
