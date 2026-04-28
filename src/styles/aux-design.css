@@ -1,0 +1,6 @@
+@import "tailwindcss";
+.circle-white{
+    @apply absolute size-100 right-0 top-10 z-10 inline-block overflow-visible rounded-full bg-linear-to-r
+    from-[#7A643F]/70 via-[#BAAF9B] to-[#ffffff] md:top-5 md:right-8
+    md:-mr-10 md:size-80 lg:top-10 lg:right-0 lg:mr-auto lg:size-120 xl:size-155;
+}

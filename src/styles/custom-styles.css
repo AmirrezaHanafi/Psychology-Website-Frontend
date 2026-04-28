@@ -5,6 +5,10 @@
     src: url("/public/Fonts/Poppin/PoppinsLatin-Regular.ttf");
 }
 @font-face {
+    font-family: 'PoppinsLight';
+    src: url("/public/Fonts/Poppin/PoppinsLatin-Light.ttf");
+}
+@font-face {
     font-family: 'PoppinsBold';
     src: url("/public/Fonts/Poppin/PoppinsLatin-Bold.ttf");
 }
@@ -24,6 +28,7 @@
 @theme {
     /* custom Fonts */
     --font-Poppins : "poppins";
+    --font-PoppinsLight : "poppinsLight";
     --font-PoppinsBold : "poppinsBold";
     --font-PoppinsExtraBold : "PoppinsExtraBold";
     --font-PoppinsMedium : "PoppinsMedium";

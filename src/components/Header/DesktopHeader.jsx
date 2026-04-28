@@ -3,16 +3,16 @@ import Button from '../Buttons/Button.jsx'
 
 export default function DesktopHeader() {
   return (
-    <header className="hidden md:flex justify-between items-center gap-x-1 md:px-4 lg:px-14 xl:px-17  bg-primary ">
-      <Link to={'/'} className="flex justify-center items-center">
+    <header className="bg-primary sticky top-20 right-0 left-0 z-50 mx-auto mt-7 hidden h-24 w-[98%] items-center justify-between rounded-3xl px-5 py-0 backdrop-blur-[6px] md:flex lg:w-[96%] lg:px-10 lg:py-5">
+      <Link to={'/'} className="mt-5 flex items-center justify-center">
         <img src="/public/assets/Logo/HeaderLogo.png" alt="Logo" />
-        <div className=" flex flex-col justify-center items-center">
-          <span className="block font-Prata text-2xl">OPAL MIND</span>
-          <span className="font-Prata text-base text-center">PSYCHIATRIST</span>
+        <div className="flex flex-col items-center justify-center">
+          <span className="font-Prata block text-2xl">OPAL MIND</span>
+          <span className="font-Prata text-center text-base">PSYCHIATRIST</span>
         </div>
       </Link>
       <div>
-        <ul className="flex items-center  gap-x-8 lg:gap-x-10 font-PoppinsMedium text-lg *:transition-all *:py-1 *:border-b-2 *:border-transparent *:hover:border-[#7A643F]/80  ">
+        <ul className="font-PoppinsMedium flex items-center gap-x-8 text-lg *:border-b-2 *:border-transparent *:py-1 *:transition-all *:hover:border-[#7A643F]/80 lg:gap-x-10">
           <li>
             <Link to={'/'}>Home</Link>
           </li>

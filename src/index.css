@@ -2,8 +2,8 @@
 @import "./styles/custom-styles.css";
 
 body{
-    @apply font-Poppins text-base overflow-x-hidden;
+    @apply font-Poppins text-base overflow-x-hidden bg-primary;
 }
 @utility container {
-    @apply mx-auto md:px-7.5 px-5
+    @apply mx-auto md:px-10 px-7 m-0
 }
