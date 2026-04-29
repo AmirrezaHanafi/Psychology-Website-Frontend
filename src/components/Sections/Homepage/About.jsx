@@ -3,9 +3,9 @@ import Button from '../../Buttons/Button.jsx'
 export default function About() {
   return (
     <div className="">
-      <div className="container flex flex-col items-center justify-between gap-x-2 rounded-2xl bg-white/10 pt-8 md:flex-row md:items-start lg:pt-15 lg:pb-16.25">
+      <div className="container flex flex-col items-center justify-between gap-x-2 rounded-2xl bg-white/10 pt-8 pb-3 md:flex-row md:items-start lg:pt-15 lg:pb-16.25">
         <div className="block self-start md:hidden">
-          <h2 className="font-PoppinsExtraBold mb-8 text-2xl">About Me</h2>
+          <h2 className="font-PoppinsExtraBold mb-8 text-xl md:text-2xl">About Me</h2>
         </div>
         <div className="order-last md:order-first">
           <h2 className="font-PoppinsExtraBold hidden text-2xl md:block">About Me</h2>

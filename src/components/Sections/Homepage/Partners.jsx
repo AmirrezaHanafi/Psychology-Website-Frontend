@@ -29,21 +29,6 @@ const faqData = [
 ]
 
 export default function Partners() {
-  const obj = {
-    id: 1,
-    name: 'shayan',
-    auxobj: {
-      id: 3,
-      name: 'ali'
-    }
-  }
-
-  const obj2 = structuredClone(obj)
-
-  obj2.auxobj.name = 'mohsen'
-  console.log('obj main is', obj)
-  //reference object
-
   const [openId, setOpenId] = useState(null)
 
   const toggleFAQ = id => {
@@ -53,21 +38,21 @@ export default function Partners() {
   return (
     <div className="container flex flex-col items-center justify-between gap-10 rounded-2xl bg-white/10 pt-11 md:flex-row md:items-start">
       <div className="flex-1">
-        <h2 className="font-PoppinsBold text-2xl">Insurance partners</h2>
+        <h2 className="font-PoppinsBold text-xl md:text-2xl">Insurance partners</h2>
         <div className="mt-12 grid grid-cols-2 gap-10 md:mt-18.75 xl:grid-cols-3">
           {partnerLogoUrlogo.map((item, index) => (
             <img
               key={item.id}
               src={item.url}
               alt={item.id}
-              className={`${index === 8 && 'hidden xl:block'} size-auto`}
+              className={`${index === 8 && 'hidden xl:block'} w-40 md:w-auto`}
             />
           ))}
         </div>
       </div>
-      <div className="min-h-[500px] rounded-4xl bg-[#C2B496] pb-6">
+      <div className="mb-6 rounded-4xl bg-[#C2B496] pb-6">
         <div className="w-full max-w-[500px] px-7 pt-9 md:max-w-[400px] md:px-8 lg:max-w-[550px] lg:px-11 lg:pt-8.5 xl:max-w-[654px]">
-          <h2 className="font-PoppinsBold mb-4.5 text-2xl">FAQ</h2>
+          <h2 className="font-PoppinsBold mb-4.5 text-xl md:text-2xl">FAQ</h2>
           <div className="space-y-6 md:space-y-3 lg:space-y-5">
             {faqData.map(item => (
               <div key={item.id}>
