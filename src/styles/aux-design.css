@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "/src/styles/custom-styles.css";
 .circle-white{
     @apply absolute size-100 right-0 top-10 z-10 inline-block overflow-visible rounded-full bg-linear-to-r
     from-[#7A643F]/70 via-[#BAAF9B] to-[#ffffff] md:top-5 md:right-8
@@ -12,3 +13,21 @@
         bottom: 8px !important;
     }
 }
+.custom-bullet {
+    width: 8px;
+    height: 8px;
+    background: gray;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+.custom-bullet-active {
+ background-color: #635741 !important;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    display: inline-block;
+}
+

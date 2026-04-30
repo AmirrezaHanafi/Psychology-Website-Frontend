@@ -64,18 +64,25 @@ export default function Testimonials() {
               setIsBeginning(swiper.isBeginning)
               setIsEnd(swiper.isEnd)
             }}
-            pagination={{ clickable: true }}
+            pagination={{
+              clickable: true,
+              bulletClass: 'custom-bullet',
+              bulletActiveClass: 'custom-bullet-active',
+              renderBullet: (index, className) => {
+                return `<span class="${className}"></span>`
+              }
+            }}
             autoplay={{ delay: 5000 }}
             breakpoints={{
               640: { slidesPerView: 1 },
               768: { slidesPerView: 2 },
               1280: { slidesPerView: 3 }
             }}
-            className="testimonials-swiper h-[250px]"
+            className="testimonials-swiper"
           >
             {testimonials.map(testimonial => (
               <SwiperSlide key={testimonial.id} className="pb-16">
-                <div className="flex min-h-[190px] flex-col items-start justify-between rounded-[30px] bg-white p-6 shadow-lg md:min-h-[235px] lg:min-h-[210px]">
+                <div className="flex min-h-[190px] flex-col items-start justify-around rounded-[30px] bg-white p-3 shadow-lg md:min-h-[235px] md:p-6 lg:min-h-[210px]">
                   <p className="font-PoppinsLight mb-4 text-sm text-black md:text-base">
                     {testimonial.text}
                   </p>

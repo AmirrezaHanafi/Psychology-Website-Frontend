@@ -3,6 +3,7 @@ import About from '../components/Sections/Homepage/About.jsx'
 import Services from '../components/Sections/Homepage/Services.jsx'
 import Partners from '../components/Sections/Homepage/Partners.jsx'
 import Testimonials from '../components/Sections/Homepage/Testimonials.jsx'
+import Blogs from '../components/Sections/Homepage/Blogs.jsx'
 
 export default function HomePage() {
   return (
@@ -20,8 +21,11 @@ export default function HomePage() {
       <section className="my-25">
         <Partners />
       </section>
-      <section>
+      <section className="my-25">
         <Testimonials />
+      </section>
+      <section>
+        <Blogs />
       </section>
     </div>
   )
