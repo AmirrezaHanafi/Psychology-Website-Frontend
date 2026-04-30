@@ -9,7 +9,7 @@ export default function Footer() {
     <footer className="container mt-8.5 mb-5 flex h-[400px] items-center justify-between rounded-[40px] bg-[#635741]/10 pr-11 pl-13.75 backdrop-blur-md">
       <div className="flex flex-col items-center">
         <Link to={'/'} className="mt-5 flex flex-col items-center justify-center">
-          <img src="/public/assets/Logo/footerLogo.png" alt="Logo" />
+          <img src="/assets/Logo/footerLogo.png" alt="Logo" />
           <div className="flex flex-col items-center justify-center">
             <span className="font-Prata block text-2xl">OPAL MIND</span>
             <span className="font-Prata text-center text-base">PSYCHIATRIST</span>
