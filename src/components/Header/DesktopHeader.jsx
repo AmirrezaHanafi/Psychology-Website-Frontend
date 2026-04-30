@@ -7,7 +7,7 @@ export default function DesktopHeader() {
       <Link to={'/'} className="mt-5 flex items-center justify-center">
         <img src="/assets/HeaderLogo.png" alt="Logo" />
         <div className="flex flex-col items-center justify-center">
-          <span className="font-Prata block text-2xl">OPAL MIND</span>
+          <span className="font-Prata block text-2xl">OPAAL MIND</span>
           <span className="font-Prata text-center text-base">PSYCHIATRIST</span>
         </div>
       </Link>
