@@ -6,13 +6,13 @@ import Telegram from './Icons/Telegram.jsx'
 
 export default function Footer() {
   return (
-    <footer className="container mt-8.5 mb-5 flex h-[400px] items-center justify-between rounded-[40px] bg-[#635741]/10 pr-11 pl-13.75 backdrop-blur-md">
+    <footer className="container my-8.5 mb-5 flex items-center justify-between rounded-[40px] bg-[#635741]/10 pr-11 pb-5 pl-13.75 backdrop-blur-md">
       <div className="flex flex-col items-center">
         <Link to={'/'} className="mt-5 flex flex-col items-center justify-center">
           <img src="/assets/Logo/footerLogo.png" alt="Logo" />
           <div className="flex flex-col items-center justify-center">
             <span className="font-Prata block text-2xl">OPAL MIND</span>
-            <span className="font-Prata text-center text-base">PSYCHIATRIST</span>
+            <span className="font-Prata block text-center text-base">PSYCHIATRIST</span>
           </div>
         </Link>
       </div>
