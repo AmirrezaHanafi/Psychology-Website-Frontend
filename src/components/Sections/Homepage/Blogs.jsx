@@ -30,11 +30,14 @@ export default function Blogs() {
           }}
           className="blogs-swiper mx-[77px]"
         >
-          {blogs.map(blog => (
-            <SwiperSlide key={blog.id} className="pb-16">
-              <BlogCart blog={blog} />
-            </SwiperSlide>
-          ))}
+          {blogs.map(blog => {
+            console.log(blog)
+            return (
+              <SwiperSlide key={blog.id} className="pb-16">
+                <BlogCart blog={blog} />
+              </SwiperSlide>
+            )
+          })}
         </Swiper>
       </div>
     </div>

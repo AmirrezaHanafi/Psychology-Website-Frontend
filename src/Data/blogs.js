@@ -1,30 +1,30 @@
 const blogs = [
   {
-    id: globalThis.crypto.randomUUID(),
+    id: 1,
     imageUrl: '/public/assets/women/blogimg.png',
     title: 'Understanding the Hidden Signs of Anxiety in Everyday Life',
     category: 'Anxiety & Stress'
   },
   {
-    id: globalThis.crypto.randomUUID(),
+    id: 2,
     imageUrl: '/public/assets/women/blogimg.png',
     title: 'Understanding the Hidden Signs of Anxiety in Everyday Life',
     category: 'Anxiety & Stress'
   },
   {
-    id: globalThis.crypto.randomUUID(),
+    id: 3,
     imageUrl: '/public/assets/women/blogimg.png',
     title: 'Understanding the Hidden Signs of Anxiety in Everyday Life',
     category: 'Anxiety & Stress'
   },
   {
-    id: globalThis.crypto.randomUUID(),
+    id: 4,
     imageUrl: '/public/assets/women/blogimg.png',
     title: 'Understanding the Hidden Signs of Anxiety in Everyday Life',
     category: 'Anxiety & Stress'
   },
   {
-    id: globalThis.crypto.randomUUID(),
+    id: 5,
     imageUrl: '/public/assets/women/blogimg.png',
     title: 'Understanding the Hidden Signs of Anxiety in Everyday Life',
     category: 'Anxiety & Stress'
